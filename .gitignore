@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+Backend/node_modules/
+
+# Build output
+dist/
+Backend/dist/
+
+# Environment & secrets
+.env
+.env.example
+.env.local
+.env.*.local
+Backend/.env
+Backend/.env.example
+Backend/.env.local
+serviceAccountKey.json
+Backend/serviceAccountKey.json
+firebase.json
+Backend/firebase.json
+*-firebase-adminsdk-*.json
+
+# Logs & OS files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
